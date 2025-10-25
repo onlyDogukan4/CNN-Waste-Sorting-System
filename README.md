@@ -7,7 +7,7 @@ Bu proje, görüntü işleme (Computer Vision) ve Derin Öğrenme (Deep Learning
 
 Amacım, bir staj veya kariyer fırsatı için başvurduğum şirketlere, **uçtan uca bir makine öğrenimi projesi yönetme, model analizi yapma ve sonuçları profesyonelce raporlama** becerisine sahip olduğumu göstermektir.
 
-### ✨ Teknik Özet ve Elde Edilen Başarı
+### Teknik Özet ve Elde Edilen Başarı
 * **Model Mimarisi:** Custom 2D CNN (Convolutional Neural Network)
 * **Final Test Doğruluğu:** **[% [0.8065] ]**
 * **Kullanılan Teknikler:** Data Augmentation, Keras Callbacks (Early Stopping, Model Checkpointing).
@@ -17,7 +17,7 @@ Amacım, bir staj veya kariyer fırsatı için başvurduğum şirketlere, **uçt
 
 ---
 
-2- ## 📊 Model Performansı ve Analiz
+2- ## Model Performansı ve Analiz
 
 Modelimizin eğitim süreçleri ve nihai performansı, detaylı görsel analizlerle incelenmiştir.
 
@@ -25,7 +25,7 @@ Modelimizin eğitim süreçleri ve nihai performansı, detaylı görsel analizle
 
 (results/accuracy_history.png) | (results/loss_history.png) |
 
-**✅ Analiz Yorumu :**
+** Analiz Yorumu :**
 "Doğrulama Kaybı grafiği, yaklaşık **[70.]** epoch'tan sonra yükselişe geçmiştir. Bu, modelin eğitim verisini ezberlemeye başladığı (overfitting) noktadır. **`EarlyStopping` geri çağrısı** kullanılarak, eğitim bu kritik noktada durdurulmuş ve en iyi genelleme yeteneğine sahip ağırlıklar Drive'a kaydedilmiştir. Bu mekanizma, modelin stabilitesini ve gerçek dünya verilerine uyumunu sağlamıştır."
 
 ---
